@@ -215,21 +215,31 @@ main {
   color: #fff;
   padding: 100px 100px 70px;
   margin-top: 50px;
+  flex: column;
+  /* display: inline-block; */
+}
+.new-div {
+  flex: row;
+  justify-content: center;
 }
 .footer-box {
-  width: 400px;
-  display: inline-block;
-  margin-right: 30px;
+  width: 200px;
+  height: 200px;
+  float: right; 
 }
 .footer-box-2 {
+  width: 200px;
+  height: 200px;
   position: relative;
-  top: 15px;
+  /* top: 15px; */
+  float: right;
 }
 .footer-box-3 {
+  width: 200px;
+  height: 200px;
   position: relative;
-  top: -15px;
-  float: right;
-  padding-left: 20px;
+  /* top: -15px; */
+  /* padding-left: 20px; */
 }
 .footer-box h4 {
   font-size: 23px;
@@ -254,6 +264,7 @@ main {
   margin-right: 12px;
   border-radius: 100%;
   cursor: pointer;
+  min-width: 40px;
 }
 .footer-box p {
   margin-bottom: 25px;
