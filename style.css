@@ -250,6 +250,7 @@ main {
 .footer-box .icon-div i {
   padding: 12px;
   background-color: #95adbe;
+  width: 10px;
   color: #fff;
   margin-right: 12px;
   border-radius: 100%;
